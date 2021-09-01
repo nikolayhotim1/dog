@@ -16,3 +16,11 @@ if (dog.weight > 20) {
 
 var speak = dog.name + " says " + bark + " when he wants to " + dog.activity;
 console.log(speak); // Fido says WOOF WOOF when he wants to fetch balls
+
+console.log(delete dog.dogYears); // true
+
+dog.dogYears = 35;
+console.log(dog.dogYears); // 35
+
+console.log(delete dog.dogYears); // true
+console.log(dog.dogYears); // undefined
